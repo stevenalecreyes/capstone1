@@ -9,7 +9,18 @@ section, div {
 
 .bg-nav {
         background-color: #182d49;
+        border-bottom: 3px groove #e3e0de;
+
+        width: 100%;
+        margin: auto;
+       }
+
+.hline {
+        background-color:#3d3b43 ;
+        border-bottom:6px solid;
+        width: 100%;
 }
+
 
 #goTop {
         border: none;
@@ -29,9 +40,12 @@ body {
 
 
 #projects{
-        background-color: gray;
+        background-color: #a69cac;
 }
 
+.bg-alternate{
+        background-color: #b8906d;
+}
 #emailButton {
         background-color: #b8906d;
 }
@@ -44,6 +58,32 @@ body {
          background-color: #182d49;
 }
 
-.contact-bg-front{
+.bg-yellow{
          background-color:#e6e0d6 ;
+}
+
+.text-dark-blue{
+         font-color: #182d49;
+}
+
+.text-yellow{
+         color:#e6e0d6 ;
+}
+
+.fa-facebook {
+text-align: center;
+  color: white;
+  font-size:36px
+}
+
+.fa-linkedin {
+text-align: center;
+color: white;
+font-size:36px
+}
+
+.fa-github {
+text-align: center;
+color: white;
+font-size:48px
 }
