@@ -2,9 +2,48 @@
         font-family: Space Mono;
 }
 
+section, div {
+        height: 100%;
+        width: 100%;
+}
+
+.bg-nav {
+        background-color: #182d49;
+}
+
 #goTop {
+        border: none;
         position: fixed;
         bottom: 8px;
-        right: 16px;
+        right: 15px;
         font-size: 18px;
+        z-index: 1;
     }
+
+body {
+        background-color: #e3e0de;
+}
+.bg-landing {
+        background-color: #e3e0de;
+}
+
+
+#projects{
+        background-color: gray;
+}
+
+#emailButton {
+        background-color: #b8906d;
+}
+
+.contact-text{
+        text-color: #3d3b43;
+}
+
+.bg-dark-blue{
+         background-color: #182d49;
+}
+
+.contact-bg-front{
+         background-color:#e6e0d6 ;
+}
